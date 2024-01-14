@@ -35,12 +35,12 @@ class MenuHeader extends BaseComponent {
   }
 
   #updateMenuSectionTitle(title) {
-    const menuSectionTitle = document.querySelector('moonbucks-app h2');
+    const menuSectionTitle = document.querySelector('menu-title h2');
     menuSectionTitle.textContent = `${title} 메뉴 관리`;
   }
 
   #updateMenuInput(title) {
-    const menuInput = document.querySelector('moonbucks-app input');
+    const menuInput = document.querySelector('menu-input-form input');
     const titleWithoutEmoji = title.slice(2);
 
     menuInput.placeholder = `${titleWithoutEmoji} 메뉴 이름`;

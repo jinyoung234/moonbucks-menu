@@ -5,3 +5,4 @@ import './components/menuInputForm/component.js';
 import './components/menuList/component.js';
 import './components/menuListItem/component.js';
 import './components/menuCount/component.js';
+import './components/menuTitle/component.js';
